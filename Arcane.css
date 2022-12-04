@@ -1,0 +1,474 @@
+body {
+  margin: 0;
+  font-family: Garamond, serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(77, 49, 87);
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(93, 51, 109);
+  color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+  background-color: #301f8f76;
+  color: white;
+}
+
+.myVideo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.vid-text {
+  text-align: center;
+  place-items: center;
+  display: grid;
+  width: 100%;
+  height: 20%;
+  margin-bottom:0px;
+}
+
+.vid-t h1{
+  color: #ffffff;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.vid-t h3{
+  color: #ffffff;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.about{
+  width: 100%;
+  padding: 100px 0px 0px 0px;
+  margin-top: 730px;
+  margin-bottom: 0px;
+  background-color:rgb(73, 43, 83);
+}
+
+.premise h1{
+  text-align: center;
+  color:#ffffff;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.premise h2{
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  padding-top: 50px;
+  color:#ffffff;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.jinx{
+  width: 100%;
+  padding: 0px 0px;
+  background-color: rgb(140, 181, 197);
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+}
+
+.jinx img{
+  height: auto;
+  width: 990px;
+}
+
+.jinx-img{
+  width:2530px;
+  max-width:95%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.jinx-con h1{
+  color: black;
+  font-size: 80px;
+  text-transform:capitalize;
+  margin-bottom: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.jinx-con h2{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.vi{
+  width: 100%;
+  padding: 80px 0px;
+  padding-bottom: 0px;
+  background-color: rgb(124, 73, 120);
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+}
+
+.vi img{
+  height: auto;
+  width: 990px;
+}
+
+.vi-img{
+  width:2530px;
+  max-width:95%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vi-con h1{
+  color: black;
+  font-size: 80px;
+  text-transform:capitalize;
+  margin-bottom: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.vi-con h2{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.btn {
+  font-size: 1rem;
+  background-color: rgb(204, 172, 204);
+  padding: 14px 32px;
+  border: none;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+  margin-left: 850px;
+}
+
+.btn a {
+  position: relative;
+  z-index: 2;
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn a:hover{
+  color: white;
+}
+
+.btn:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #91e8e5;
+  transition: all 0.35s;
+  border-radius: 4px; 
+}
+
+.characters{
+  width: 100%;
+  padding: 50px 0px 30px 0px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  background-color:rgb(88, 51, 82);
+}
+
+.champions h1{
+  text-align: center;
+  color:#ffffff;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.champions h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 500px;
+  padding-top: 10px;
+  color:#ffffff;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ji{
+  width: 100%;
+  padding: 0px 0px;
+  background-color: rgb(105, 166, 190);
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+}
+
+.ji img{
+  height: auto;
+  width: 990px;
+}
+
+.ji-img{
+  width:2530px;
+  max-width:95%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ji-con h1{
+  color: black;
+  font-size: 80px;
+  text-transform:capitalize;
+  margin-bottom: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.ji-con h2{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.viCH{
+  width: 100%;
+  padding: 80px 0px;
+  padding-bottom: 0px;
+  background-color: rgb(124, 73, 120);
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+}
+
+.viCH img{
+  height: auto;
+  width: 990px;
+}
+
+.vi-imgCH{
+  width:2530px;
+  max-width:95%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vi-conCH h1{
+  color: black;
+  font-size: 80px;
+  text-transform:capitalize;
+  margin-bottom: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.vi-con h2{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.champs{
+  width: 100%;
+  padding: 50px 0px 30px 0px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  background-color:rgb(61, 52, 94);
+  text-align: center;
+  color:#dbdada;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.cait{
+  width: 100%;
+  padding: 80px 0px;
+  padding-bottom: 0px;
+  background-color: rgb(59, 59, 97);
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+}
+
+.cait img{
+  height: auto;
+  width: 990px;
+}
+
+.cait-img{
+  width:2530px;
+  max-width:95%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cait-con h1{
+  color: black;
+  font-size: 80px;
+  text-transform:capitalize;
+  margin-bottom: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.cait-con h2{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.jay{
+  width: 100%;
+  padding: 80px 0px;
+  padding-bottom: 0px;
+  background-color: rgb(66, 55, 35);
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+}
+
+.jay img{
+  height: auto;
+  width: 990px;
+}
+
+.jay-img{
+  width:2530px;
+  max-width:95%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.jay-con h1{
+  color: black;
+  font-size: 80px;
+  text-transform:capitalize;
+  margin-bottom: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.jay-con h2{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.vic{
+  width: 100%;
+  padding: 80px 0px;
+  padding-bottom: 0px;
+  background-color: rgb(100, 40, 40);
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+}
+
+.vic img{
+  height: auto;
+  width: 990px;
+}
+
+.vic-img{
+  width:2530px;
+  max-width:95%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vic-con h1{
+  color: black;
+  font-size: 80px;
+  text-transform:capitalize;
+  margin-bottom: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.vic-con h2{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.sil {
+  width: 100%;
+  padding: 80px 0px;
+  padding-bottom: 0px;
+  background-color: rgb(47, 29, 59);
+  font-family: 'Copperplate', 'Papyrus', 'fantasy';
+}
+
+.sil img{
+  height: auto;
+  width: 990px;
+}
+
+.sil-img{
+  width:2530px;
+  max-width:95%;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sil-con h1{
+  color: black;
+  font-size: 80px;
+  text-transform:capitalize;
+  margin-bottom: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.sil-con h2{
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
